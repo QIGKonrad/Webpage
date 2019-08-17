@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quantum Information Group</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: #0299CC;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }
+
+        #myBtn:hover {
+          background-color:  #6C6D6E;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tm-page-container mx-auto">
+        <header class="tm-header text-center">
+            <h1 class="tm-title text-uppercase">Professor Konrad's</h1>
+            <h1 class="tm-title text-uppercase">Quantum Information Group</h1>
+            <div class="colour-box text-center"></div>
+            <p style="text-align: center; font-size: 25px" class="tm-primary-color"><i>University of Kwazulu-Natal</i></p>
+        </header>
+
+        <section class="tm-section">
+            <nav class="tm-nav">
+                <ul>
+                    <li><a href="index.html"><span class="tm-nav-deco"></span>Home</a></li>
+                    <li><a href="research.html"><span class="tm-nav-deco"></span>Research</a></li>
+                    <li ><a href="publications.html"><span class="tm-nav-deco"></span>Publications</a></li>
+                    <li class="active"><a href="collaboration.html"><span class="tm-nav-deco"></span>Collaborations</a><li>
+                    <li ><a href="events.html"><span class="tm-nav-deco"></span>Events</a></li>
+                    <li ><a href="students.html"><span class="tm-nav-deco"></span>Students</a></li>
+                    <li><a href="contact.html"><span class="tm-nav-deco"></span>Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="tm-content-container">
+                <div class="tm-content-container">
+                <div class="tm-content-container-video">
+                    <video width="100%" loop autoplay muted>
+                        <source src="img/title_images/mag7.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="tm-content">
+                    <h2 class="tm-page-title">Collaborators</h2>
+                    <p style="margin-left: 7%"> <span class="tab">
+                        <a href="http://www.rmki.kfki.hu/~diosi/" rel="noopener noreferrer" target="_blank"> Prof Lajos Diosi (Wigner Research Centre, Budapest, Hungary)</a> <br>
+                        <a href="http://structuredlight.org/team/" rel="noopener noreferrer" target="_blank"> Prof Andrew Forbes (Structured Light Lab, University of Witwatersrand, South Africa)  </a> <br>
+                        <a href="http://www.sun.ac.za/english/faculty/science/physics/lri/research/groups/trapped-ion-quantum-control/people" rel="noopener noreferrer" target="_blank">Prof Hermann Uys (Univertity of Stellenbosch, South Africa)  </a> <br>
+                        <a href="https://www.imsc.res.in/sibasish_ghosh" rel="noopener noreferrer" target="_blank"> Prof Sibasish Ghosh (IMSC Chennai, India) </a><br>
+                        <a href="http://www.nmisa.org/Pages/default.aspx" rel="noopener noreferrer" target="_blank"> Prof Filippus (Stef) Roux (National Metrology Institute of South Africa)</a> <br>
+                        <a href="http://www.iisermohali.ac.in/faculty/dps/skgoyal" rel="noopener noreferrer" target="_blank"> Prof Sandeep Goyal (IISER Mohali, India)</a> <br>
+                    </span></p>
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+    // When the user scrolls down from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+    document.getElementById("myBtn").style.display = "block";
+    } else {
+    document.getElementById("myBtn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+
+</html>
