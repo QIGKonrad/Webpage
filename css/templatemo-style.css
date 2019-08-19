@@ -217,6 +217,9 @@ figure.effect-bubba img {
 figure.effect-bubba:hover img {
 	opacity: 0.4;
 }
+figure.effect-bubba:active img {
+	opacity: 0.4;
+}
 
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
@@ -270,9 +273,22 @@ figure.effect-bubba:hover figcaption::after {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+figure.effect-bubba:active figcaption::before,
+figure.effect-bubba:active figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
 
 figure.effect-bubba:hover h2,
 figure.effect-bubba:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-bubba:active h2,
+figure.effect-bubba:active p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
