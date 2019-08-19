@@ -199,7 +199,7 @@ footer {
 .tm-gallery-item figure p {
 	letter-spacing: 1px;
 	font-size: 60.5%;
-	max-width: 200px;
+    max-width: 200px;
 	margin: 0 auto;
 }
 
@@ -288,7 +288,6 @@ figure.effect-bubba:hover p {
 .tm-gallery-item {
 	margin-top: 15px;
 	margin-bottom: 15px;
-	max-width: 300px;
 }
 
 .tm-content-2 {
