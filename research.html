@@ -81,6 +81,7 @@
                             <a href="#Q measurementbased">  Measurement-based Feedback Control </a><br>
                             <a href="#Q coherentfeedback">  Control of Quantum Systems by Quantum Systems </a><br>
                             <a href="#Q computing">  Quantum Computing to solve optimisation tasks </a><br>
+                            <a href="#Q verification">  Quantum Computing Verification and Validation </a><br>
                             <br>
                         </p>
                         
@@ -237,6 +238,38 @@
                         <p class="mb-4">However, there might exist algorithms for quantum computers that could solve such optimisation tasks efficiently (with polynomially growing resources). A practical challenge is that existing quantum computers are noisy, intermediate scale quantum (NISQ) devices, that make it difficult to gain a quantum advantage. </p>
                         <p class="mb-4"> We are looking to solve optimisation problems on existing quantum computers encoding information in the  amplitudes of quantum states. Since the state of a quantum computer with 50 quantum bits (a qubit is the basis unit of quantum information that can be stored in a quantum system with two basis states) is determined by a total of 2 to the power 50 basis states, it can thus store the same number of amplitudes. This corresponds to the values of  10 to the power 15 variables that can be processed in parallel.  However, the main problem is how to read in the input values and read out results. The QIGK is researching quantum optimisation algorithms and solutions to the input-output problem. </p>
   
+                        <div class="colour-box"></div>
+                        <h2 class="tm-page-title"> <a name="Q verification"> </a> Quantum Verification and Validation </h2> 
+
+                        <h3 class="tm-page-title"> <a name="Q verification background"> </a> Background of Verification and Validation (V&V) </h3> 
+
+                        <p class="mb-4">Verification and validation serve to evaluate products, services and systems as diverse as pharmaceuticals, medical devices, buildings and roads, financial accounting or health care.  Verification asks whether the system was build according to specifications (“Was the thing built right?”) and validation addresses the question whether the system serves its purpose (“Was the right thing built?).  Among the most important applications is the verification and validation of computer simulations [1].   </p>
+                        <p class="mb-4">With sufficient computational power, a designed system can be improved by simulating its properties, for example the aerodynamics of a new jet plane, on a computer instead of building, testing and re-engineering it. However, this shortcut requires accurate modeling of the system and its environment. For this purpose, the task of V&V is essential: to make sure the computer simulation reflects the model (verification) and the model reflects reality (validation) with high fidelity.  Computer simulations enable also testing under extreme conditions and in accident scenarios, where experiments are not possible or too costly.   </p>
+                        <p class="mb-4"> Foundations of V&V for simulation software have been developed in nuclear reactor safety as well as in nuclear waste storage communities and, in general, in the field of computational fluid dynamics, which coined a lot of the terminology, discovered methods and invented processes [2].  An important aspect of V&V is the generation of benchmarks that allow to test the accuracy and reliability of a system. For computer simulations, a benchmark could be the comparison of the outputs to an analytic or highly accurate numerical solution for a special case under simplifying assumptions.  Depending on the complexity of the system, V&V can take up to 50% of the total development costs.  </p>
+                        <p class="mb-4"> In some cases verification of code cannot even be achieved using classical computers in reasonable time. For example, the US based company Lockheed Martin developed software for aircrafts to automate evasive maneuvers to escape from danger. Because of the complexity of the software and the aerodynamics involved, conventional computers do not have the capacity to verify and validate the flight control software [3]. In this case V&V might be facilitated in future using quantum computers with registers of several millions of physical qubits (“quantum bits”, the analog of “bits” in a conventional computer). Optimistic predictions reckon that such large-scale quantum computers (QC) with error correction might be available in ten to twenty years time. However, reliable predictions about the advent of QC cannot be made at this point [4]. </p> 
+                        <p class="mb-4"> There are software engineering institutes that are working on V&V for flight control software using a Quantum Approximation Optimisation Algorithm with contemporary QCs, which have typically 50 qubits [5]. This class of quantum computers is known as Noisy Intermediate Size Quantum (NISQ) computers.  As noted in the progress report [7] on page 160 there are at present promising research directions but no known algorithms or applications that could make effective use of NISQ computers. </p>
+                        <p class="mb-4"> An interesting problem for V&V is posed by the advantage of quantum computers – if they are built – to solve problems that are intractable by classical computers. This basically could mean that it is impossible to verify the solutions by classical means. A certain class of computational problems (NP) has solutions that can be checked in reasonable time and with reasonable resources. For example, when the prime factors of a large integer number are found by a quantum computer (Shor Algorithm), one can efficiently multiply them on a classical computer to check the result. However, the class of problems that can be solved by a quantum computer efficiently  (BQP) is presumably much bigger than NP. Therefore, once quantum software can be run, the problem how to do quantum V&V becomes important. </p>
+                        
+                        <h3 class="tm-page-title"> <a name="Q verification background"> </a> Background of Verification and Validation (V&V) </h3> 
+
+                        <p class="mb-4">Verification and validation serve to evaluate products, services and systems as diverse as pharmaceuticals, medical devices, buildings and roads, financial accounting or health care.  Verification asks whether the system was build according to specifications (“Was the thing built right?”) and validation addresses the question whether the system serves its purpose (“Was the right thing built?).  Among the most important applications is the verification and validation of computer simulations [1].   </p>
+                        <p class="mb-4"> </p>
+                        <p class="mb-4"> </p>
+                        <p class="mb-4"> </p> 
+                        <p class="mb-4"> </p>
+                        <p class="mb-4"> </p>
+                        <h3 class="tm-page-title"> <a name="Q verification background"> </a> Background of Verification and Validation (V&V) </h3> 
+
+                        <p class="mb-4">Verification and validation serve to evaluate products, services and systems as diverse as pharmaceuticals, medical devices, buildings and roads, financial accounting or health care.  Verification asks whether the system was build according to specifications (“Was the thing built right?”) and validation addresses the question whether the system serves its purpose (“Was the right thing built?).  Among the most important applications is the verification and validation of computer simulations [1].   </p>
+                        <p class="mb-4"> </p>
+                        <p class="mb-4"> </p>
+                        <p class="mb-4"> </p> 
+                        <p class="mb-4"> </p>
+                        <p class="mb-4"> </p>
+
+
+
+
 
 
 
